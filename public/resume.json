@@ -176,14 +176,6 @@
   ],
   "projects": [
     {
-      "name": "NordVPN Client",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "A flutter based linux client for the nordvpn cli",
-      "highlights": ["Flutter", "Dart", "NordVPN CLI"],
-      "url": "https://github.com/sh4r10/nordvpn-client"
-    },
-    {
       "name": "Pocket Parking",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
