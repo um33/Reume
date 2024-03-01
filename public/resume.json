@@ -1,0 +1,228 @@
+{
+  "basics": {
+    "name": "Shariq Shahbaz",
+    "label": "Software Engineer",
+    "image": "images/profile.jpg",
+    "email": "shariqsmain@gmail.com",
+    "phone": "+46769811222",
+    "url": "https://shariqshahbaz.com",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "city": "Gothenburg, Malmö",
+      "countryCode": "SE",
+      "region": "Sweden"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "icon": "fa-brands fa-linkedin-in",
+        "username": "Shariq Shahbaz",
+        "url": "https://www.linkedin.com/in/shariqshahbaz/"
+      },
+      {
+        "network": "GitHub",
+        "icon": "fa-brands fa-github",
+        "username": "sh4r10",
+        "url": "https://github.com/sh4r10"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "PixelCloud AB",
+      "url": "https://www.pixelcloud.se/",
+      "position": "Full-stack Developer",
+      "startDate": "2022-06-01",
+      "endDate": "2022-08-01",
+      "summary": "As a full stack developer, my responsibilities included overseeing the entire web application development process, from conceptualization to deployment. I utilized the React.js for front-end development, Node.js for back-end development, combined through Next.js and Prisma for database management",
+      "highlights": ["Next.js", "Prisma", "PostgreSQL"]
+    },
+    {
+      "name": "Chalmers University",
+      "url": "https://www.chalmers.se/",
+      "position": "Teaching Assistent",
+      "startDate": "2022-08-01",
+      "endDate": "2024-01-01",
+      "summary": "I have been a TA for the following variety of courses: Object Oriented Programming, UX Design & Requirements Engineering, Data Management, Development of Real Time Systems, Mobile and Web Development and Development of Distributed Systems",
+      "highlights": ["Distributed Systems", "Web Development", "Databases"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Model United Nations of Borgar",
+      "position": "Head of MUN",
+      "startDate": "2020-08-01",
+      "endDate": "2021-03-01",
+      "summary": "Headed the MUN club at Borgarskolan, Malmö",
+      "highlights": ["Organizer of weekly debates", "Person responsible"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Gothenburg",
+      "url": "https://gu.se/",
+      "area": "Software Engineering and Management",
+      "studyType": "Bachelor",
+      "startDate": "2021-09-01",
+      "endDate": "2024-06-01"
+    },
+    {
+      "institution": "Malmö Borgarskolan",
+      "url": "https://gu.se/",
+      "area": "International Baccalaureate",
+      "studyType": "High School",
+      "startDate": "2018-08-01",
+      "endDate": "2021-06-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "date": "2023-11-04",
+      "issuer": "Stanford University | Deep Learning AI",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/NQFMPRW79HBB"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Javascript", "Typescript", "Rust", "Python", "Java", "C"]
+    },
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "Node.js",
+        "Next.js",
+        "Flask",
+        "Django",
+        "REST",
+        "gRPC",
+        "tRPC",
+        "MQTT"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "keywords": [
+        "React",
+        "Redux",
+        "Svelte",
+        "Solid",
+        "Vue",
+        "JSDoc",
+        "Webpack",
+        "MUI",
+        "Bootstrap",
+        "Tailwind"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Tensorflow",
+        "Recommendations",
+        "Descision Trees",
+        "Collaborative Filtering",
+        "Neural Networks",
+        "Deep Learning",
+        "CNNs",
+        "RL"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["PostgreSQL", "MongoDB", "Neo4J", "Redis"]
+    },
+    {
+      "name": "Miscellaneous",
+      "keywords": ["Docker", "Kubernetes", "Flutter", "Git", "Linux", "SAFe"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Urdu/Hindi",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Linux",
+      "keywords": ["Customization", "Arch", "Vim"]
+    },
+    {
+      "name": "Fitness",
+      "keywords": ["Gym", "Calisthenics"]
+    },
+    {
+      "name": "Sports",
+      "keywords": ["Table Tennis", "Cricket", "Pool"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Asas Inab",
+      "position": "CEO PixelCloudAB",
+      "contact": "info@pixelcloud.se",
+      "reference": "Great"
+    }
+  ],
+  "projects": [
+    {
+      "name": "NordVPN Client",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "A flutter based linux client for the nordvpn cli",
+      "highlights": ["Flutter", "Dart", "NordVPN CLI"],
+      "url": "https://github.com/sh4r10/nordvpn-client"
+    },
+    {
+      "name": "Pocket Parking",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "An automated parking system designed for cars, along with a phone app",
+      "highlights": ["Embedded Systems", "Arduino", "C++", "MQTT", "Java"],
+      "url": "https://github.com/sh4r10/pocket-parking"
+    },
+
+    {
+      "name": "Dentistimo",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "A distributed software system for booking dentist appointments",
+      "highlights": ["Distributed Systems", "Typescript", "MQTT", "Mosquitto"],
+      "url": "https://github.com/sh4r10/dentistimo"
+    },
+    {
+      "name": "Flashtime",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "A learning tracker service to optimize learning through spaced repitition",
+      "highlights": ["Express.js", "MongoDB", "JWT", "Vue.js"],
+      "url": "https://github.com/sh4r10/flashtime"
+    },
+    {
+      "name": "Would you survive the titanic?",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Using data from the titanic, XGBoost (an ML algorithm) decides your fate",
+      "highlights": ["Solid", "Node.js", "gRPC", "XGBoost"],
+      "url": "https://github.com/sh4r10/titanic"
+    },
+    {
+      "name": "JSX Renderer",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "A JSX renderer created from scratch to understand modern JS frameworks",
+      "highlights": ["Javascript", "Webpack", "Babel"],
+      "url": "https://github.com/sh4r10/jsx-renderer"
+    }
+  ]
+}

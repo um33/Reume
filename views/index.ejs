@@ -1,0 +1,127 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./styles/fonts.css">
+        <link rel="stylesheet" href="./styles/misc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="mx-auto bg-gray-100" style="max-width: 1200px">
+        <div class="mx-auto mt-4 flex items-center justify-center">
+            <img class="w-24 h-24 rounded-full" src=<%= basics.image %> alt="Shariq Shahbaz"/>
+            <div class="ml-4">
+                <h1 class="font-light text-3xl text-center"><%= basics.name.split(" ")[0] %> <span class="font-medium"><%= basics.name.split(" ")[1] %></span></h1>
+                <p class="tracking-wider text-lg text-center mt-0.5">Software Engineer</p>
+            </div>
+        </div>
+        <div class="mx-auto mt-2 text-2xl text-center text-emerald-700 flex items-center justify-center gap-4">
+            <a target="_blank" href="tel:<%= basics.phone %>" class="flex items-end">
+                <i class="fa-solid fa-phone"></i>
+                <span class="text-black font-regular text-sm ml-2"><%= basics.phone %></span>
+            </a>
+            <a target="_blank" href="mailto:<%= basics.email %>" class="flex items-end">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="text-black font-regular text-sm ml-2"><%= basics.email %></span>
+            </a>
+            <% basics.profiles.forEach(profile => { %>
+            <a target="_blank" href=<%= profile.url %> class="flex items-end">
+                <i class="<%= profile.icon %>"></i>
+                <span class="text-black font-regular text-sm ml-2"><%= profile.username %></span>
+            </a>
+            <% }) %>
+        </div>
+        <hr style="border-color: #047857" class="mt-4 opacity-35" />
+        <div class="mt-4 flex">
+            <div class="w-3/4 pr-4">
+                <div>
+                    <h2 class="font-bold text-xl">Experience</h2>
+                    <% work.forEach(exp => { %>
+                    <div class="my-1">
+                        <h3 class="font-medium text-lg"><%= exp.position %> <span class="text-gray-800 text-xs"><%= exp.highlights.join(" • ") %></span></h3>
+                        <a href=<%= exp.url %> target="_blank" class="text-emerald-700 font-medium">
+                            <i class="fa-solid fa-link"></i>
+                            <%= exp.name %>
+                        </a>
+                        <p class="text-gray-500 text-sm font-semibold"><%= exp.startDate %> - <%= exp.endDate %></p>
+                        <p><%= exp.summary %></p>
+                    </div>
+                    <% }) %>
+                </div>
+                <div class="mt-2">
+                    <h2 class="font-bold text-xl">Skills</h2>
+                    <% skills.forEach(skill => { %>
+                    <div class="mt-0.5 mb-1">
+                        <p class="font-bold"><%= skill.name %> <span class="font-normal ml-2"><%= skill.keywords.join(" • ") %></span></p>
+                   </div>
+                    <% }) %>
+                </div>
+                <div class="mt-2">
+                    <h2 class="font-bold text-xl">Projects</h2>
+                    <% projects.forEach(project => { %>
+                    <div class="my-1">
+                        <a href=<%= project.url %> target="_blank" class="text-emerald-800 font-bold">
+                            <i class="fa-solid fa-link"></i>
+                            <%= project.name %>
+                            <span class="text-black text-sm ml-1 font-medium"><%= project.highlights.join(" • ") %></span>
+                        </a>
+                        <p class="text-black"><%= project.description %></p>
+                    </div>
+                    <% }) %>
+                </div>
+            </div>
+            <div class="w-1/4">
+                <div>
+                    <h2 class="font-bold text-xl">Education</h2>
+                    <% education.forEach(edu => { %>
+                    <div class="mt-0.5 mb-1">
+                        <h3 class="font-medium text-lg"><%= edu.area %></h3>
+                        <h4><%= edu.institution %></h4>
+                        <p class="text-gray-500 text-sm font-semibold"><%= edu.startDate %> - <%= edu.endDate %></p>
+                    </div>
+                    <% }) %>
+                </div>
+                <div class="mt-3">
+                    <h2 class="font-bold text-xl">Certifications</h2>
+                    <% certificates.forEach(cert => { %>
+                    <div class="my-0.5 mb-1">
+                        <a target="_blank" class="text-emerald-700 font-medium" href=<%= cert.url %>>
+                            <i class="fa-solid fa-link"></i>
+                            <%= cert.name %>
+                        </a>
+                        <h4><%= cert.issuer %></h4>
+                        <p class="text-gray-500 text-sm font-semibold"><%= cert.date %></p>
+                    </div>
+                    <% }) %>
+                </div>
+                <div class="mt-3">
+                    <h2 class="font-bold text-xl">Languages</h2>
+                    <% languages.forEach(lang => { %>
+                    <p class="my-0.5 mb-1"><%= lang.language %></p>
+                    <% }) %>
+                </div>
+                <div class="mt-3">
+                    <h2 class="font-bold text-xl">Interests</h2>
+                    <% interests.forEach(interest => { %>
+                    <div class="my-0.5 mb-1">
+                    <p class="font-medium"><%= interest.name %></p>
+                    <p class="text-gray-800 text-sm"><%= interest.keywords.join(" • ") %></p>
+                    </div>
+                    <% }) %>
+                </div>
+                <div class="mt-3">
+                    <h2 class="font-bold text-xl">References</h2>
+                    <% references.forEach(reference => { %>
+                    <div class="my-0.5 mb-1">
+                    <p class="font-medium"><%= reference.name %></p>
+                    <p class="text-gray-800 text-xs"><%= reference.position %></p>
+                    <a target="_blank" href="mailto:<%= reference.contact %>" class="text-emerald-700 flex items-end">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="text-black font-regular text-sm ml-2"><%= reference.contact %></span>
+                    </a>
+                    </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

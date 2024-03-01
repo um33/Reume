@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-ExtraBold.otf') format('opentype');
+  font-weight: 800; /* ExtraBold is usually 800 */
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-ExtraLight.otf') format('opentype');
+  font-weight: 200; /* ExtraLight is usually 200 */
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-Light.otf') format('opentype');
+  font-weight: 300; /* Light is usually 300 */
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-Medium.otf') format('opentype');
+  font-weight: 500; /* Medium is usually 500 */
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-Regular.otf') format('opentype');
+  font-weight: normal; /* Regular is usually 400 */
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/manrope/Manrope-SemiBold.otf') format('opentype');
+  font-weight: 600; /* SemiBold is usually 600 */
+}
+
+body {
+    font-family: "Manrope";
+}

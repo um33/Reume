@@ -1,0 +1,20 @@
+body {
+    margin: 4rem auto;
+}
+
+@media print{
+    html {
+        font-size: 14px;
+    }
+    body {
+        margin: 0 auto;
+    }
+    hr {
+        display: block;
+        height: 1px;
+        background: transparent;
+        width: 100%;
+        border: none;
+        border-top: solid 1px #aaa;
+    }
+}
