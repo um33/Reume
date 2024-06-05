@@ -37,13 +37,17 @@
                     <h2 class="font-bold text-xl mb-2">Experience</h2>
                     <% work.forEach(exp => { %>
                     <div class="my-1">
-                        <h3 class="font-medium text-lg"><%= exp.position %> <span class="text-gray-800 text-xs"><%= exp.highlights.join(" • ") %></span></h3>
+                        <h3 class="font-semibold text-lg"><%= exp.position %> <span class="text-black text-sm ml-1 font-medium"><%= exp.highlights.join(" • ") %></span></h3>
                         <a href=<%= exp.url %> target="_blank" class="text-emerald-800 font-semibold">
                             <i class="fa-solid fa-link"></i>
                             <%= exp.name %>
                         </a>
                         <p class="text-gray-500 text-sm font-semibold"><%= exp.startDate %> - <%= exp.endDate %></p>
-                        <p><%= exp.summary %></p>
+                        <ul class="list-disc list-inside">
+                            <% exp.points.forEach(point => { %>
+                                <li class="pt-1"><%- point %></li>
+                            <% }) %>
+                        </ul>
                     </div>
                     <% }) %>
                 </div>
@@ -51,7 +55,7 @@
                     <h2 class="font-bold text-xl mb-2">Skills</h2>
                     <% skills.forEach(skill => { %>
                     <div class="mb-1.5">
-                        <p class="font-bold"><%= skill.name %> <span class="font-normal ml-2"><%= skill.keywords.join(" • ") %></span></p>
+                        <p class="font-bold text-base"><%= skill.name %> <span class="font-normal ml-2"><%= skill.keywords.join(" • ") %></span></p>
                     </div>
                     <% }) %>
                 </div>
@@ -60,7 +64,7 @@
                     <% projects.forEach(project => { %>
                     <div class="mb-2">
                         <div>
-                            <a href=<%= project.url %> target="_blank" class="text-emerald-800 font-bold">
+                            <a href=<%= project.url %> target="_blank" class="text-emerald-800 font-semibold">
                                 <i class="fa-solid fa-link"></i>
                                 <%= project.name %>
                             </a>
@@ -76,8 +80,8 @@
                     <h2 class="font-bold text-xl mb-2">Education</h2>
                     <% education.forEach(edu => { %>
                     <div class="mb-3">
-                        <h3 class="font-medium text-lg"><%= edu.area %></h3>
-                        <h4><%= edu.institution %></h4>
+                        <h3 class="font-semibold text-lg"><%= edu.area %></h3>
+                        <h4 class="font-normal"><%= edu.institution %></h4>
                         <p class="text-gray-500 text-sm font-semibold"><%= edu.startDate %> - <%= edu.endDate %></p>
                     </div>
                     <% }) %>
@@ -90,7 +94,7 @@
                             <i class="fa-solid fa-link"></i>
                             <%= cert.name %>
                         </a>
-                        <h4><%= cert.issuer %></h4>
+                        <h4 class="font-normal"><%= cert.issuer %></h4>
                         <p class="text-gray-500 text-sm font-semibold"><%= cert.date %></p>
                     </div>
                     <% }) %>
@@ -101,21 +105,21 @@
                     <p class="mb-1"><%= lang.language %></p>
                     <% }) %>
                 </div>
-                <div class="mt-5">
-                    <h2 class="font-bold text-xl mb-2">Interests</h2>
-                    <% interests.forEach(interest => { %>
-                    <div class="mb-1">
-                        <p class="font-medium"><%= interest.name %></p>
-                        <p class="text-gray-800 text-sm"><%= interest.keywords.join(" • ") %></p>
-                    </div>
-                    <% }) %>
-                </div>
+                <!-- <div class="mt-5"> -->
+                <!--     <h2 class="font-bold text-xl mb-2">Interests</h2> -->
+                <!--     <% interests.forEach(interest => { %> -->
+                <!--     <div class="mb-1"> -->
+                <!--         <p class="font-medium"><%= interest.name %></p> -->
+                <!--         <p class="text-gray-800 text-sm"><%= interest.keywords.join(" • ") %></p> -->
+                <!--     </div> -->
+                <!--     <% }) %> -->
+                <!-- </div> -->
                 <div class="mt-5">
                     <h2 class="font-bold text-xl mb-2">References</h2>
                     <% references.forEach(reference => { %>
                     <div class="my-0.5 mb-1">
-                        <p class="font-medium"><%= reference.name %></p>
-                        <p class="text-gray-800 text-xs"><%= reference.position %></p>
+                        <p class="font-medium text-lg"><%= reference.name %></p>
+                        <p class="text-gray-800 text-base"><%= reference.position %></p>
                         <a target="_blank" href="mailto:<%= reference.contact %>" class="text-emerald-700 flex items-end">
                             <i class="fa-solid fa-envelope"></i>
                             <span class="text-black font-regular text-sm ml-2"><%= reference.contact %></span>

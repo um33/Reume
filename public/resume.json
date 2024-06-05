@@ -34,7 +34,10 @@
       "position": "Full-stack Developer",
       "startDate": "2022-06-01",
       "endDate": "2022-08-01",
-      "summary": "As a full stack developer, my responsibilities included overseeing the entire web application development process, from conceptualization to deployment. I utilized the React.js for front-end development, Node.js for back-end development, combined through Next.js and Prisma for database management",
+      "points": [
+        "Oversaw the entire web application development cycle, from conceptualization to deployment",
+        "Utilized <strong>React.js</strong> for front-end development, <strong>Node.js</strong> for back-end development in the form of <strong>Next.js</strong>, along with <strong>Prisma</strong> as the ORM"
+      ],
       "highlights": ["Next.js", "Prisma", "PostgreSQL"]
     },
     {
@@ -43,8 +46,11 @@
       "position": "Teaching Assistent",
       "startDate": "2022-08-01",
       "endDate": "2024-01-01",
-      "summary": "I have been a TA for the following variety of courses: Object Oriented Programming, UX Design & Requirements Engineering, Data Management, Development of Real Time Systems, Mobile and Web Development and Development of Distributed Systems",
-      "highlights": ["Distributed Systems", "Web Development", "Databases"]
+      "points": [
+        "Courses included Object Oriented Programming, Requirements Engineering, Real Time Systems and Distributed Systems among others",
+        "Responsibilites included helping students as well as <strong>grading assignments</strong> and occassionally <strong>grading exams</strong>"
+      ],
+      "highlights": ["OOP", "Databases", "Distributed Systems"]
     }
   ],
   "volunteer": [
@@ -86,65 +92,40 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Javascript", "Typescript", "Rust", "Python", "Java", "C"]
+      "keywords": ["Javascript", "Typescript", "Java", "Python"]
     },
     {
       "name": "Backend Development",
-      "keywords": [
-        "Node.js",
-        "Next.js",
-        "Flask",
-        "Django",
-        "REST",
-        "gRPC",
-        "tRPC",
-        "MQTT"
-      ]
+      "keywords": ["Node.js", "Next.js", "SpringBoot", "Flask", "Django"]
     },
     {
       "name": "Frontend Development",
-      "keywords": [
-        "React",
-        "Redux",
-        "Svelte",
-        "Solid",
-        "Vue",
-        "JSDoc",
-        "Webpack",
-        "MUI",
-        "Bootstrap",
-        "Tailwind"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "keywords": [
-        "Tensorflow",
-        "Recommendations",
-        "Descision Trees",
-        "Collaborative Filtering",
-        "Neural Networks",
-        "Deep Learning",
-        "CNNs",
-        "RL"
-      ]
+      "keywords": ["React", "Svelte", "Solid", "Vue"]
     },
     {
       "name": "Databases",
-      "keywords": ["PostgreSQL", "MongoDB", "Neo4J", "Redis"]
+      "keywords": ["PostgreSQL", "MongoDB", "Redis", "Neo4J"]
     },
     {
-      "name": "Miscellaneous",
-      "keywords": ["Docker", "Kubernetes", "Flutter", "Git", "Linux", "SAFe"]
+      "name": "DevOps and Monitoring",
+      "keywords": [
+        "Kafka",
+        "Docker",
+        "Kubernetes",
+        "Elastic",
+        "Grafana",
+        "Prometheus",
+        "Kibana"
+      ]
+    },
+    {
+      "name": "Software Engineering Workflow",
+      "keywords": ["Agile (SAFe and Scrum)", "Git", "Linux"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Urdu/Hindi",
       "fluency": "Native speaker"
     },
     {
@@ -176,6 +157,22 @@
   ],
   "projects": [
     {
+      "name": "Cadence",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Host, stream and organize your own local music",
+      "highlights": ["Next.js", "PostgreSQL"],
+      "url": "https://github.com/sh4r10/titanic"
+    },
+    {
+      "name": "Flashtime",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "A learning tracker service to optimize learning through spaced repitition",
+      "highlights": ["Express.js", "MongoDB", "JWT", "Vue.js"],
+      "url": "https://github.com/sh4r10/flashtime"
+    },
+    {
       "name": "Pocket Parking",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
@@ -191,22 +188,6 @@
       "description": "A distributed software system for booking dentist appointments",
       "highlights": ["Distributed Systems", "Typescript", "MQTT", "Mosquitto"],
       "url": "https://github.com/sh4r10/dentistimo"
-    },
-    {
-      "name": "Flashtime",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "A learning tracker service to optimize learning through spaced repitition",
-      "highlights": ["Express.js", "MongoDB", "JWT", "Vue.js"],
-      "url": "https://github.com/sh4r10/flashtime"
-    },
-    {
-      "name": "Would you survive the titanic?",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Using data from the titanic, XGBoost (an ML algorithm) decides your fate",
-      "highlights": ["Solid", "Node.js", "gRPC", "XGBoost"],
-      "url": "https://github.com/sh4r10/titanic"
     },
     {
       "name": "JSX Renderer",
