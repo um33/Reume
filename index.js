@@ -15,9 +15,9 @@ resume.education.forEach((edu) => {
   edu.endDate = format(new Date(edu.endDate), "MMM yyyy");
 });
 
-resume.certificates.forEach((cert) => {
-  cert.date = format(new Date(cert.date), "MMM do yyyy");
-});
+// resume.certificates.forEach((cert) => {
+//   cert.date = format(new Date(cert.date), "MMM do yyyy");
+// });
 
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));

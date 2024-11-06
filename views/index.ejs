@@ -8,7 +8,7 @@
     </head>
     <body class="mx-auto bg-gray-100" style="max-width: 1200px">
         <div class="mx-auto mt-4 flex items-center justify-center">
-            <img class="w-24 h-24 rounded-full" src=<%= basics.image %> alt="Shariq Shahbaz"/>
+            <img class="w-24 h-24 rounded-full" src=<%= basics.image %> alt="Umar Mahmood"/>
             <div class="ml-4">
                 <h1 class="font-light text-3xl text-center"><%= basics.name.split(" ")[0] %> <span class="font-medium"><%= basics.name.split(" ")[1] %></span></h1>
                 <p class="tracking-wider text-lg text-center mt-0.5">Software Engineer</p>
@@ -31,11 +31,11 @@
             <% }) %>
         </div>
         <hr style="border-color: #047857" class="mt-4 opacity-35" />
-        <div class="mt-4 flex">
+        <div class="mt-4 flex"> <!-- Added margin-top here for spacing -->
             <div class="w-3/4 pr-4">
                 <div>
                     <h2 class="font-bold text-xl mb-2">Experience</h2>
-                    <% work.forEach(exp => { %>
+                    <% [...work, ...Experience].forEach(exp => { %>
                     <div class="my-1">
                         <h3 class="font-semibold text-lg"><%= exp.position %> <span class="text-black text-sm ml-1 font-medium"><%= exp.highlights.join(" • ") %></span></h3>
                         <a href=<%= exp.url %> target="_blank" class="text-emerald-800 font-semibold">
@@ -51,7 +51,8 @@
                     </div>
                     <% }) %>
                 </div>
-                <div class="mt-3">
+                <hr style="border-color: #047857" class="mt-4 opacity-35" />
+                <div class="mt-4">
                     <h2 class="font-bold text-xl mb-2">Skills</h2>
                     <% skills.forEach(skill => { %>
                     <div class="mb-1.5">
@@ -59,7 +60,8 @@
                     </div>
                     <% }) %>
                 </div>
-                <div class="mt-3">
+                <hr style="border-color: #047857" class="mt-4 opacity-35" />
+                <div class="mt-4">
                     <h2 class="font-bold text-xl mb-2">Projects</h2>
                     <% projects.forEach(project => { %>
                     <div class="mb-2">
@@ -75,6 +77,7 @@
                     <% }) %>
                 </div>
             </div>
+            
             <div class="w-1/4">
                 <div>
                     <h2 class="font-bold text-xl mb-2">Education</h2>
@@ -86,20 +89,7 @@
                     </div>
                     <% }) %>
                 </div>
-                <div class="mt-5">
-                    <h2 class="font-bold text-xl mb-2">Certifications</h2>
-                    <% certificates.forEach(cert => { %>
-                    <div class="mb-2">
-                        <a target="_blank" class="text-emerald-800 font-semibold text-lg" href=<%= cert.url %>>
-                            <i class="fa-solid fa-link"></i>
-                            <%= cert.name %>
-                        </a>
-                        <h4 class="font-normal"><%= cert.issuer %></h4>
-                        <p class="text-gray-500 text-sm font-semibold"><%= cert.date %></p>
-                    </div>
-                    <% }) %>
-                </div>
-                <div class="mt-5">
+                <div class="mt-10">
                     <h2 class="font-bold text-xl mb-2">Languages</h2>
                     <% languages.forEach(lang => { %>
                     <p class="mb-1"><%= lang.language %></p>
@@ -114,7 +104,7 @@
                 <!--     </div> -->
                 <!--     <% }) %> -->
                 <!-- </div> -->
-                <div class="mt-5">
+                <!-- <div class="mt-5">
                     <h2 class="font-bold text-xl mb-2">References</h2>
                     <% references.forEach(reference => { %>
                     <div class="my-0.5 mb-1">
@@ -124,7 +114,7 @@
                             <i class="fa-solid fa-envelope"></i>
                             <span class="text-black font-regular text-sm ml-2"><%= reference.contact %></span>
                         </a>
-                    </div>
+                    </div> -->
                     <% }) %>
                 </div>
             </div>

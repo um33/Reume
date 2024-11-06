@@ -1,14 +1,13 @@
 {
   "basics": {
-    "name": "Shariq Shahbaz",
+    "name": "Umar Mahmood",
     "label": "Software Engineer",
-    "image": "images/profile.jpg",
-    "email": "shariqsmain@gmail.com",
-    "phone": "+46769811222",
-    "url": "https://shariqshahbaz.com",
+    "image": "images/image.jpg",
+    "email": "umarmahmood674@gmail.com",
+    "phone": "+46793025909",
     "summary": "A summary of John Doe…",
     "location": {
-      "city": "Gothenburg, Malmö",
+      "city": "Gothenburg",
       "countryCode": "SE",
       "region": "Sweden"
     },
@@ -16,30 +15,18 @@
       {
         "network": "Linkedin",
         "icon": "fa-brands fa-linkedin-in",
-        "username": "Shariq Shahbaz",
-        "url": "https://www.linkedin.com/in/shariqshahbaz/"
+        "username": "Umar Mahmood",
+        "url": "https://www.linkedin.com/in/umarmahmood12/"
       },
       {
         "network": "GitHub",
         "icon": "fa-brands fa-github",
-        "username": "sh4r10",
-        "url": "https://github.com/sh4r10"
+        "username": "um33",
+        "url": "https://github.com/um33"
       }
     ]
   },
   "work": [
-    {
-      "name": "PixelCloud AB",
-      "url": "https://www.pixelcloud.se/",
-      "position": "Full-stack Developer",
-      "startDate": "2022-06-01",
-      "endDate": "2022-08-01",
-      "points": [
-        "Oversaw the entire web application development cycle, from conceptualization to deployment",
-        "Utilized <strong>React.js</strong> for front-end development, <strong>Node.js</strong> for back-end development in the form of <strong>Next.js</strong>, along with <strong>Prisma</strong> as the ORM"
-      ],
-      "highlights": ["Next.js", "Prisma", "PostgreSQL"]
-    },
     {
       "name": "Chalmers University",
       "url": "https://www.chalmers.se/",
@@ -48,7 +35,7 @@
       "endDate": "2024-01-01",
       "points": [
         "Courses included Object Oriented Programming, Requirements Engineering, Real Time Systems and Distributed Systems among others",
-        "Responsibilites included helping students as well as <strong>grading assignments</strong> and occassionally <strong>grading exams</strong>"
+        "Responsibilites included helping students as well as grading assignments and occassionally grading exams"
       ],
       "highlights": ["OOP", "Databases", "Distributed Systems"]
     }
@@ -67,56 +54,36 @@
     {
       "institution": "University of Gothenburg",
       "url": "https://gu.se/",
-      "area": "Software Engineering and Management",
+      "area": "Master in Software Engineering and Management",
+      "studyType": "Master's Programme",
+      "startDate": "2024-09-01",
+      "endDate": "2026-06-01"
+    },
+    {
+      "institution": "University of Gothenburg",
+      "url": "https://gu.se/",
+      "area": "Bachelor Software Engineering and Management",
       "studyType": "Bachelor",
       "startDate": "2021-09-01",
       "endDate": "2024-06-01"
-    },
-    {
-      "institution": "Malmö Borgarskolan",
-      "url": "https://gu.se/",
-      "area": "International Baccalaureate",
-      "studyType": "High School",
-      "startDate": "2018-08-01",
-      "endDate": "2021-06-01"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2023-11-04",
-      "issuer": "Stanford University | Deep Learning AI",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/NQFMPRW79HBB"
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Javascript", "Typescript", "Java", "Python"]
+      "keywords": ["Javascript", "Typescript", "Java", "Python", "C++"]
     },
     {
       "name": "Backend Development",
-      "keywords": ["Node.js", "Next.js", "SpringBoot", "Flask", "Django"]
+      "keywords": ["Node.js", "Next.js"]
     },
     {
       "name": "Frontend Development",
-      "keywords": ["React", "Svelte", "Solid", "Vue"]
+      "keywords": ["React", "Vue"]
     },
     {
       "name": "Databases",
-      "keywords": ["PostgreSQL", "MongoDB", "Redis", "Neo4J"]
-    },
-    {
-      "name": "DevOps and Monitoring",
-      "keywords": [
-        "Kafka",
-        "Docker",
-        "Kubernetes",
-        "Elastic",
-        "Grafana",
-        "Prometheus",
-        "Kibana"
-      ]
+      "keywords": ["PostgreSQL", "MongoDB"]
     },
     {
       "name": "Software Engineering Workflow",
@@ -134,10 +101,6 @@
     }
   ],
   "interests": [
-    {
-      "name": "Linux",
-      "keywords": ["Customization", "Arch", "Vim"]
-    },
     {
       "name": "Fitness",
       "keywords": ["Gym", "Calisthenics"]
@@ -157,20 +120,12 @@
   ],
   "projects": [
     {
-      "name": "Cadence",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Host, stream and organize your own local music",
-      "highlights": ["Next.js", "PostgreSQL"],
-      "url": "https://github.com/sh4r10/cadence"
-    },
-    {
       "name": "Flashtime",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "A learning tracker service to optimize learning through spaced repitition",
+      "description": "A learning tracker service to optimize learning through spaced repetition",
       "highlights": ["Express.js", "MongoDB", "JWT", "Vue.js"],
-      "url": "https://github.com/sh4r10/flashtime"
+      "url": "https://github.com/um33/dentistimo"
     },
     {
       "name": "Pocket Parking",
@@ -178,24 +133,29 @@
       "endDate": "2021-01-01",
       "description": "An automated parking system designed for cars, along with a phone app",
       "highlights": ["Embedded Systems", "Arduino", "C++", "MQTT", "Java"],
-      "url": "https://github.com/sh4r10/pocket-parking"
+      "url": "https://github.com/um33/pocket-parking"
     },
-
     {
       "name": "Dentistimo",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "A distributed software system for booking dentist appointments",
       "highlights": ["Distributed Systems", "Typescript", "MQTT", "Mosquitto"],
-      "url": "https://github.com/sh4r10/dentistimo"
-    },
+      "url": "https://github.com/um33/dentistimo"
+    }
+  ],
+  "Experience": [
     {
-      "name": "JSX Renderer",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "A JSX renderer created from scratch to understand modern JS frameworks",
-      "highlights": ["Javascript", "Webpack", "Babel"],
-      "url": "https://github.com/sh4r10/jsx-renderer"
+      "name": "Intellom",
+      "url": "https://intellom.se",
+      "position": "Co-Founder & Software Engineer",
+      "startDate": "2023-06-01",
+      "endDate": "Present",
+      "points": [
+        "Co-founded the startup with a group of friends to develop innovative AI solutions.",
+        "Developed an AI model using Azure Open Search AI to enhance data retrieval and user interaction."
+      ],
+      "highlights": ["Co-Founder", "AI Model Development", "Azure Open Search AI", "Team Collaboration", "User Experience Design"]
     }
   ]
 }
