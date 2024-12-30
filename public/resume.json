@@ -34,8 +34,8 @@
       "startDate": "2022-08-01",
       "endDate": "2024-01-01",
       "points": [
-        "Courses included Object Oriented Programming, Requirements Engineering, Real Time Systems and Distributed Systems among others",
-        "Responsibilites included helping students as well as grading assignments and occassionally grading exams"
+        "Courses included Object Oriented Programming, Real Time Systems and Distributed Systems among others.",
+        "Responsibilites included helping students as well as grading assignments and occassionally grading exams."
       ],
       "highlights": ["OOP", "Databases", "Distributed Systems"]
     }
@@ -75,7 +75,7 @@
     },
     {
       "name": "Backend Development",
-      "keywords": ["Node.js", "Next.js"]
+      "keywords": ["Node.js"]
     },
     {
       "name": "Frontend Development",
@@ -123,7 +123,7 @@
       "name": "Flashtime",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "A learning tracker service to optimize learning through spaced repetition",
+      "description": "A learning tracker service to optimize learning through spaced repetition.",
       "highlights": ["Express.js", "MongoDB", "JWT", "Vue.js"],
       "url": "https://github.com/um33/dentistimo"
     },
@@ -131,7 +131,7 @@
       "name": "Pocket Parking",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "An automated parking system designed for cars, along with a phone app",
+      "description": "An automated parking system designed for cars, along with a phone app.",
       "highlights": ["Embedded Systems", "Arduino", "C++", "MQTT", "Java"],
       "url": "https://github.com/um33/pocket-parking"
     },
@@ -139,7 +139,7 @@
       "name": "Dentistimo",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "A distributed software system for booking dentist appointments",
+      "description": "A distributed software system for booking dentist appointments.",
       "highlights": ["Distributed Systems", "Typescript", "MQTT", "Mosquitto"],
       "url": "https://github.com/um33/dentistimo"
     }
@@ -155,7 +155,7 @@
         "Co-founded the startup with a group of friends to develop innovative AI solutions.",
         "Developed an AI model using Azure Open Search AI to enhance data retrieval and user interaction."
       ],
-      "highlights": ["Co-Founder", "AI Model Development", "Azure Open Search AI", "Team Collaboration", "User Experience Design"]
+      "highlights": ["Co-Founder", "AI Model Development", "Azure Open Search AI", "Team Collaboration"]
     }
   ]
 }
